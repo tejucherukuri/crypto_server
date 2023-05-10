@@ -1,14 +1,14 @@
 package main
 
 import (
-	"io/ioutil"
+        "io/ioutil"
 	"encoding/json"
-    "fmt"
-    "net/http"
+        "fmt"
+        "net/http"
 )
 
 type Crypto struct {
-    ID           string `json:"id"`
+        ID           string `json:"id"`
 	Name         string `json:"fullName"`
 	Crypto       bool   `json:"crypto"`
 	PayinEnabled bool   `json:"payinEnabled"`
