@@ -2,6 +2,15 @@
 Microservice API that uses the crypto API endpoint: https://api.hitbtc.com/#development-guide and returns the real-time crypto prices.
 
 
+**Improvisations: ** 
+
+I feel like i could have do more with the code if i had more time to work on it. Below, are the one's possibly i could think can be made to make the code look more organized and reusable.
+
+1. Can split the endpoints into a different folders - routers 
+2. Having the Crypto ( or Currency struct ) defined into a different folder - models
+3. Having a separate folder to have the handlers code . 
+4. I would have a separate reusable for passing the endpoint and getting the response instead of duplicating it in each handler.
+
 **API Routes :**
 
 1. **Route API : **http://localhost:8080/currency/all
@@ -135,4 +144,8 @@ Commands :
 go build
 go run crypto_server.go
 
-go build ./parking_services
+go build ./crypto_server
+
+
+
+
