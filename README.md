@@ -10,6 +10,7 @@ I feel like i could have do more with the code if i had more time to work on it.
 2. Having the Crypto ( or Currency struct ) defined into a different folder - models
 3. Having a separate folder to have the handlers code . 
 4. I would have a separate reusable for passing the endpoint and getting the response instead of duplicating it in each handler.
+5. Log and handle the errors for easy debugging.
 
 **API Routes :**
 
