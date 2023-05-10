@@ -11,6 +11,7 @@ I feel like i could have do more with the code if i had more time to work on it.
 3. Having a separate folder to have the handlers code . 
 4. I would have a separate reusable for passing the endpoint and getting the response instead of duplicating it in each handler.
 5. Log and handle the errors for easy debugging.
+6. Write a unit test for both Handlers , that sends a GET request to the handler function and checks that it returns a status code of 200.
 
 **API Routes :**
 
